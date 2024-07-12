@@ -1,6 +1,8 @@
 # Image-Background-Remover
 Welcome to the Image Background Remover repository! This project allows users to remove the background from images using a web-based interface built with HTML, CSS, and JavaScript.
 
+## Live Demo : https://erarbazansari.github.io/Image-Background-Remover/
+
 ## Features
 
 - **User-Friendly Interface**: A simple and intuitive interface for uploading and editing images.
