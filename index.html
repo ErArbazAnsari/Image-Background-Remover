@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Background Remover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <div class="first">
+          <img src="./Assets/brightness.png" alt="changeTheme" height="50px" width="70px" class="theme-toggle" onclick="toggleTheme()">
+        <div class="center">
+            <h1 style="text-align: center;">IMAGE BACKGROUND REMOVER</h1>
+            <!-- <h3 style="text-align: center;">USING HTML, CSS, JAVASCRIPT, AND remove.bg API</h3> -->
+            <div style="text-align: center;">
+                <form id="imageForm">
+                    <label for="fileInput" class="chooseImg up">Choose an image</label>
+                    <br>
+                    <input class="head" id="fileInput" type="file" accept="image/*" onchange="imageSelected()">
+                    <div id="selectedImageText" class="image-name"></div>
+                    <div class="btn-2">
+                        <div class="line">
+                            <input class="up" type="button" onclick="submitHandler()" value="Upload">
+                        </div>
+                        <button type="button" onclick="downloadFile()">Download</button>
+                        <button type="button" onclick="resetForm()">Reset</button>
+                    </div>
+                    <div class="downImage"></div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
